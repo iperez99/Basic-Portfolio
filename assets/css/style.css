@@ -50,7 +50,7 @@ a {
 
 }
 
-#contact {
+#port {
   border-right: none;
 }
 
@@ -86,16 +86,42 @@ img {
   padding: 0px 10px 10px 0;
 }
 
+label{
+  font-size: 18px;
+  display: block;
+  margin-bottom: 3px;
+  padding: 2px;
+
+}
+
+input, textarea{
+  width: 100%;
+  display: block;
+}
+
+textarea {
+  height: 350px;
+}
+
+button{
+  background-color: #4aaaa5;
+  font-size:18px;
+  color: #ffffff;
+  border: none;
+  padding: 5px 20px 5px 20px;
+  margin: 15px 0px 15px 0px;
+}
 .clearfix {
   clear: both;
   display: block;
 }
+
 footer {
   text-align: center;
   background-color: #666666;
   width: 100%;
   border-top: 8px solid #4aaaa5;
-  padding: 25px;
+  padding: 25px 25px 5px 25px;
   position: absolute;
   bottom: 0;
 
