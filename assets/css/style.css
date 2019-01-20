@@ -111,6 +111,52 @@ button{
   padding: 5px 20px 5px 20px;
   margin: 15px 0px 15px 0px;
 }
+
+.portfolio{
+  position: relative;
+  width: 35%;
+  margin: 12px 12px 30px 12px;
+  padding: 72px;
+}
+h3 {
+  text-align: center;
+  background: #4aaaa5;
+  color: #ffffff;
+  position: absolute;
+  bottom: 8px;
+  left: 0px;
+  padding: 20px;
+  width: 100%;
+}
+
+#click {
+  color: #ffffff;
+  padding:0px;
+  border-right:none;
+  text-decoration: none;
+}
+
+#p1, #p2, #p3, #p4, #p5 {
+  float: left;
+}
+
+
+#p1 {
+    background:url('../images/p1.jpg')
+}
+#p2 {
+    background:url('../images/p2.jpg')
+}
+#p3 {
+    background:url('../images/p3.jpg')
+}
+#p4 {
+    background:url('../images/p4.jpg')
+}
+#p5 {
+    background:url('../images/p5.jpg')
+}
+
 .clearfix {
   clear: both;
   display: block;
